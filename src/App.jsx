@@ -1,12 +1,15 @@
-import './App.css'
+import Background from "./components/Background";
+import Foreground from "./components/Foreground";
 
 function App() {
-
-  return (
-    <>
-      <h1 className="text-4xl text-green-500">Hello</h1>
-    </>
-  )
+    return (
+        <>
+            <div className="w-full h-screen bg-zinc-800 relative">
+                <Background />
+                <Foreground />
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;

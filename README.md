@@ -1,1 +1,1 @@
-# Mini Docs App using React.js & Tailwind CSS
+# Mini Docs App using React.js + Tailwind CSS + Framer Motion
